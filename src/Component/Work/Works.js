@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-const Project = () => {
+const Work = () => {
     const [worklist, setworklist] = useState([{
         work_designation:'Associate Software Developer Intern',
         year:'12/2019 - 03/2020',
@@ -71,4 +71,4 @@ const Project = () => {
     )
 }
 
-export default Project
+export default Work
