@@ -1,0 +1,69 @@
+.about{
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.desc{
+    font-size: 35px;
+    font-weight: 100;
+}
+.my_desc{
+    display: flex;
+}
+.interest{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.my-image {
+    height: 200px;
+    background-color: white;
+    width: 400px;
+    padding: 0 3%;
+    margin: 1%;
+}
+.app-view{
+    border: 15px double black;
+    border-bottom: 0px;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.logo-img{
+    margin: 1%;
+    height: 35px;
+    width: 35px;
+}
+.logo-img1{
+    margin: 1%;
+    height: 50px;
+    width: 50px;
+}
+.label-text{
+    font-size:25px;
+}
+.pad{
+    padding: 0 2%;
+}
+.text-desc h3{
+    
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 10s steps(1, end),
+        blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
