@@ -1,6 +1,6 @@
 {
-  "homepage": "http://murtazak6.github.io/profile", 
-  "name": "profile-page",
+  "homepage": "http://murtazak6.github.io/profile_page", 
+  "name": "profile_page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
