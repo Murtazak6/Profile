@@ -1,17 +1,18 @@
 import React, {useState} from 'react'
 import './header.css'
+import {Link} from 'react-router-dom'
 const Header = () => {
     return (
         <div>
             <ul className="nav justify-content-center">
                 <li className="nav-item text" >
-                    <a className="nav-link" href="/profile" style={{color:'whitesmoke'}}>About</a>
+                    <Link className="nav-link" href="/profile" style={{color:'whitesmoke'}}>About</Link>
                 </li>
                 <li className="nav-item text">
-                    <a className="nav-link" href="/projects"  style={{color:'whitesmoke'}}>Projects</a>
+                    <Link className="nav-link" href="/projects"  style={{color:'whitesmoke'}}>Projects</Link>
                 </li>
                 <li className="nav-item text">
-                    <a className="nav-link" href="/work"  style={{color:'whitesmoke'}}>Work</a>
+                    <Link className="nav-link" href="/work"  style={{color:'whitesmoke'}}>Work</Link>
                 </li>
                 </ul>
         </div>
