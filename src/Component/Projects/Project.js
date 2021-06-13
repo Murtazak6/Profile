@@ -25,8 +25,8 @@ const Project = () => {
         <div>
             <h1>Personal Projects</h1>
             <div className="row m-0">
-                {projectList.map((project) => {
-                    return <div className="col-md-4" style={{margin:'1%'}}>
+                {projectList.map((project,index) => {
+                    return <div className="col-md-4" style={{margin:'1%'}} key={`project${index}`}>
                         <div className="card" style={{background:'lightslategrey', height:'100%',padding:'10%'}}>
                             <h2>{project.project_name}</h2>
                             <h5>{project.year}</h5>

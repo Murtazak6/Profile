@@ -49,8 +49,8 @@ const Work = () => {
         <div style={{overflowY:'scroll',overflowX:'hidden', height:'90vh'}}>
             <h1>Personal Projects</h1>
             <div>
-                {worklist.map((work) => {
-                    return <div>
+                {worklist.map((work, index) => {
+                    return <div key={`project${index}`}>
                         <div style={{background:'lightslategrey', margin:"1%", padding:'1% 5%'}}>
                             <h2>{work.work_designation}</h2>
                             <div className="row">
@@ -62,9 +62,7 @@ const Work = () => {
                                 </div>
                             </div>
                             <div>
-                                <p>
-                                    {work.description}
-                                </p>
+                                {work.description}
                             </div>
                         </div>
                     </div>
