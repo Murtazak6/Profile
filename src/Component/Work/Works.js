@@ -43,7 +43,7 @@ const Work = () => {
         </div>
     }])
     return (
-        <div>
+        <div style={{overflowY:'scroll',overflowX:'hidden', height:'90vh'}}>
             <h1>Personal Projects</h1>
             <div>
                 {worklist.map((work) => {

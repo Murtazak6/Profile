@@ -4,8 +4,8 @@ import ReactTypingEffect from 'react-typing-effect'
 const About = () => {
     return (
         <div className="about">
-            <h1>Hi.</h1>
-            <h1>I 'm Murtaza,</h1>
+            {/* <h1>Hi.</h1> */}
+            {/* <h1>I 'm Murtaza,</h1> */}
             <div>
             <ReactTypingEffect
                 text={["Hybrid App and Web Developer"]}

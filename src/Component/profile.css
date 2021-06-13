@@ -16,6 +16,7 @@
 .profile-background{
     background-color: #727271;
     height: 100vh;
+    padding: 0 0 0 15px;
     width: 100%;
     color: white;
 }

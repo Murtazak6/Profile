@@ -1,7 +1,6 @@
 import React from 'react'
 import img from '../images/IMG20210219172127.jpg'
 import './profile.css'
-import {profile} from '../profiledata'
 import Header from './Header/Header.js'
 import Routes from '../Routes'
 const Profile = () => {
