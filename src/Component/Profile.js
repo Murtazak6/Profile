@@ -14,7 +14,7 @@ const Profile = () => {
                         </div>
                     </center>
                     <center>
-                        <img src={img} className="profile_img"></img>
+                        <img src={img} className="profile_img" alt="profile"></img>
                     </center>
                     <center className="m-5 justify-content-space-between">
                         <a href="https://www.linkedin.com/in/murtaza-kankroliwala-938514168/" style={{padding:'5%'}}>
