@@ -6,13 +6,13 @@ const Header = () => {
         <div>
             <ul className="nav justify-content-center">
                 <li className="nav-item text" >
-                    <Link className="nav-link" href="/profile" style={{color:'whitesmoke'}}>About</Link>
+                    <Link className="nav-link" to="/profile" style={{color:'whitesmoke'}}>About</Link>
                 </li>
                 <li className="nav-item text">
-                    <Link className="nav-link" href="/projects"  style={{color:'whitesmoke'}}>Projects</Link>
+                    <Link className="nav-link" to="/projects"  style={{color:'whitesmoke'}}>Projects</Link>
                 </li>
                 <li className="nav-item text">
-                    <Link className="nav-link" href="/work"  style={{color:'whitesmoke'}}>Work</Link>
+                    <Link className="nav-link" to="/work"  style={{color:'whitesmoke'}}>Work</Link>
                 </li>
                 </ul>
         </div>
