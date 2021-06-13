@@ -14,7 +14,7 @@ const Header = () => {
                 <li className="nav-item text">
                     <a className="nav-link" href="/work"  style={{color:'whitesmoke'}}>Work</a>
                 </li>
-                </ul>
+            </ul>
         </div>
     )
 }
