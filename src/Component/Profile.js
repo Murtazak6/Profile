@@ -4,7 +4,6 @@ import './profile.css'
 import Header from './Header/Header.js'
 import Routes from '../Routes'
 // import { useTime } from 'react-time-sync'
-import { NtpTimeSync } from "ntp-time-sync";
 import { BrowserRouter } from 'react-router-dom'
 
 const Profile = () => {
