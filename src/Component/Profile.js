@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import img from '../images/IMG20210219172127.jpg'
 import './profile.css'
 import Header from './Header/Header.js'

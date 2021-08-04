@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react';
 import './App.css';
 import Profile from './Component/Profile'
 
