@@ -1,10 +1,11 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Profile from './Component/Profile'
 
 function App() {
   return (
     <div className="App">
-      <Profile />
+        <Profile />
     </div>
   );
 }

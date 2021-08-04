@@ -6,14 +6,12 @@ import Works from './Component/Work/Works'
 
 const Routes = () => {
     return (
-        <Router>
-            <Switch>
-                <Route path="/projects" component={Project} exact />
-                <Route path="/work" component={Works} exact />
-                <Route path="/profile" component={About} exact />
-                <Redirect path="/" to="/profile" exact/>
-            </Switch>
-        </Router>
+        <Switch>
+            <Route path="/projects" component={Project} exact />
+            <Route path="/work" component={Works} exact />
+            <Route path="/profile" component={About} exact />
+            <Redirect path="/" to="/profile" exact/>
+        </Switch>
     )
 }
 
