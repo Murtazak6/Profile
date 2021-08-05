@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import './header.css'
 
 const Header = () => {
@@ -7,22 +6,13 @@ const Header = () => {
         <div>
             <ul className="nav justify-content-center">
                 <li className="nav-item text" >
-                    <NavLink 
-                        className="nav-link" 
-                        to={'/profile'}
-                        style={{color:'whitesmoke'}}>About</NavLink>
+                    <a className="nav-link" href="/profile" style={{color:'whitesmoke'}}>About</a>
                 </li>
                 <li className="nav-item text">
-                    <NavLink 
-                        className="nav-link" 
-                        to={`/projects`} 
-                        style={{color:'whitesmoke'}}>Projects</NavLink>
+                    <a className="nav-link" href="/projects"  style={{color:'whitesmoke'}}>Projects</a>
                 </li>
                 <li className="nav-item text">
-                    <NavLink 
-                        className="nav-link" 
-                        to={`/work`} 
-                        style={{color:'whitesmoke'}}>Work</NavLink>
+                    <a className="nav-link" href="/work"  style={{color:'whitesmoke'}}>Work</a>
                 </li>
             </ul>
         </div>
