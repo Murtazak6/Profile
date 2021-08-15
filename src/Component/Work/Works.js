@@ -47,7 +47,7 @@ const Work = () => {
     }, [])
     return (
         <div style={{overflowY:'scroll',overflowX:'hidden', height:'90vh'}}>
-            <h1>Personal Projects</h1>
+            <h1>Work Experience</h1>
             <div>
                 {worklist.map((work, index) => {
                     return <div key={`project${index}`}>

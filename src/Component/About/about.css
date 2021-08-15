@@ -1,5 +1,10 @@
 .about{
-    height: 93%;
+    height: 92%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mobile-about{
     display: flex;
     justify-content: center;
     flex-direction: column;

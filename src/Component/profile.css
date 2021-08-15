@@ -7,7 +7,9 @@
 }
 .left-col{
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100vh;
+    flex-basis: 100%;
     background: #1f1f1f;
     justify-content: center;
     flex-direction: column;
@@ -15,17 +17,26 @@
 }
 .profile-background{
     background-color: #727271;
-    height: 100vh;
+    flex-basis: 100%;
+    min-height: 100vh;
     padding: 0 0 0 15px;
     width: 100%;
     color: white;
 }
 @media only screen and (max-width: 900px) {
     .profile_img {
-        height: 400px;
-        width: 300px;
+        height: 250px;
+        width: 200px;
         border: 1px solid lightgrey;
         border-radius: 30px;
         box-shadow: 3px 3px 3px grey;
+    }
+    .profile-background{
+        padding: 0;
+        min-height: 100%;
+    }
+    .left-col{
+        padding: 0;
+        min-height: auto;
     }
   }

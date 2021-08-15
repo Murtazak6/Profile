@@ -3,7 +3,7 @@ import './about.css'
 import ReactTypingEffect from 'react-typing-effect'
 const About = () => {
     return (
-        <div className="about">
+        <div className={window.screen.width < 900 ? "mobile-about":"about"}>
             {/* <h1>Hi.</h1> */}
             {/* <h1>I 'm Murtaza,</h1> */}
             <div>

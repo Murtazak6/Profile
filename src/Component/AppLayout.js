@@ -4,6 +4,7 @@ import About from './About/About'
 import Project from './Projects/Project'
 import Work from './Work/Works'
 import Header from './Header/Header'
+import Contact from './Contact/Contact'
 const AppLayout = () => {
     return (
         <Router>
@@ -14,6 +15,7 @@ const AppLayout = () => {
                 <Route path="/" component={About} exact />
                 <Route path="/projects" component={Project} exact />
                 <Route path="/work" component={Work} exact />
+                <Route path="/contact" component={Contact} exact />
             </Switch>
         </Router>
     )
