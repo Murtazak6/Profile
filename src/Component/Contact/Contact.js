@@ -16,24 +16,24 @@ const Contact = () => {
             (name !== '' && name !== null && name !== undefined) && 
             (email !== '' && email !== null && email !== undefined) && 
             (subject !== '' && subject !== null && subject !== undefined)){
-            // e.preventDefault();
-            // emailjs.send('service_sc6hxk5', 'template_qehbtoy', {
-            //     name: name,
-            //     email: email,
-            //     subject: subject,
-            //     message: content
-            // }, 'user_minqCOuSYQdQPwDjoVYj9')
-            // .then((result) => {
-            //     console.log(result.text);
+            e.preventDefault();
+            emailjs.send('service_sc6hxk5', 'template_qehbtoy', {
+                name: name,
+                email: email,
+                subject: subject,
+                message: content
+            }, 'user_minqCOuSYQdQPwDjoVYj9')
+            .then((result) => {
+                console.log(result.text);
                 setContent('')
                 setEmail('')
                 setSubject('')
                 setName('')
                 setDisable(true)
                 toast.success('Your message is sent. Please wait...\n Murtaza will contact you soon.')
-            // }, (error) => {
-            //     console.log(error.text);
-            // });
+            }, (error) => {
+                console.log(error.text);
+            });
         } else {
             toast.info('Please enter all fields')
         }
