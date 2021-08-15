@@ -1,10 +1,11 @@
 import React from 'react'
 import img from '../images/IMG20210219172127.jpg'
 import './profile.css'
-import Header from './Header/Header.js'
-import Routes from '../Routes'
-// import { useTime } from 'react-time-sync'
-import { BrowserRouter } from 'react-router-dom'
+// import Header from './Header/Header.js'
+// import AppBody from '../Routes'
+// // import { useTime } from 'react-time-sync'
+// import { BrowserRouter as Router} from 'react-router-dom'
+import AppLayout from './AppLayout'
 
 const Profile = () => {
     return (
@@ -33,10 +34,11 @@ const Profile = () => {
                     </center>
                 </div>
                 <div className="col-lg-9 profile-background">
-                    <BrowserRouter>
+                    {/* <Router>
                         <Header />
-                        <Routes />
-                    </BrowserRouter>
+                        <AppBody />
+                    </Router> */}
+                    <AppLayout/>
                 </div>
             </div>
         </div>
