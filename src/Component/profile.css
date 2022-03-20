@@ -29,13 +29,14 @@
 @media only screen and (max-width: 900px) {
     .profile_img {
         position: fixed;
-        top: 2%;
+        top: 1%;
         right: 1%;
-        height: 25%;
-        width: 20%;
+        height: 10%;
+        width: 25%;
         border: 1px solid lightgrey;
         /* border-radius: 30px; */
         box-shadow: 3px 3px 3px grey;
+        image-rendering: pixelated;
         border-radius: 50%;
     }
     .profile-background{
