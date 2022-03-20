@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react'
 const Work = () => {
     const [worklist, setworklist] = useState([])
     useEffect(() => {
-        setworklist([, {
+        setworklist([{
             work_designation:'Associate Software Developer',
             year:'10/2020 - Currently Working',
             location:'Mulund, Mumbai',
