@@ -1,5 +1,5 @@
 .about{
-    height: 92%;
+    height: 92vh;
     display: flex;
     justify-content: center;
     flex-direction: column;

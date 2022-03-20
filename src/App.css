@@ -19,3 +19,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: white; 
 }
+.App{
+  background-color: #727271;
+  min-height: 100vh;
+}

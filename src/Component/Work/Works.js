@@ -3,7 +3,21 @@ import React, {useState, useEffect} from 'react'
 const Work = () => {
     const [worklist, setworklist] = useState([])
     useEffect(() => {
-        setworklist([{
+        setworklist([, {
+            work_designation:'Associate Software Developer',
+            year:'10/2020 - Currently Working',
+            location:'Mulund, Mumbai',
+            company:'LogisticsNow',
+            description: <div>
+                <p> - Web development</p>
+                <ul>
+                    <li>
+                        <a href="https://www.lorri.in/" style={{color:'aqua'}}>LoRRI Website</a> changes and new features developed
+                    </li>
+                </ul>
+            </div>
+        }, 
+        {
             work_designation:'Associate Software Developer Intern',
             year:'12/2019 - 03/2020',
             location:'Mulund, Mumbai',
@@ -13,7 +27,8 @@ const Work = () => {
                 <p> - Web Application Front-end developement for their Website Using ReactJs mostly on Maps</p>
                 <p> - Software Testing</p>
             </div>
-        }, {
+        },
+        {
             work_designation:'Full Stack App and Web Developer',
             year:'03/2020 - 10/2020',
             location:'Mulund, Mumbai',
@@ -28,19 +43,6 @@ const Work = () => {
                 <ul>
                     <li>Nima Website</li>
                     <li>Main Website</li>
-                </ul>
-            </div>
-        }, {
-            work_designation:'Associate Software Developer',
-            year:'10/2020 - Currently Working',
-            location:'Mulund, Mumbai',
-            company:'LogisticsNow',
-            description: <div>
-                <p> - Web development</p>
-                <ul>
-                    <li>
-                        <a href="https://www.lorri.in/" style={{color:'aqua'}}>LoRRI Website</a> changes and new features developed
-                    </li>
                 </ul>
             </div>
         }])

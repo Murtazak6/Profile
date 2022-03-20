@@ -12,11 +12,11 @@ const Profile = () => {
         <div>
             <div className="row m-0">
                 <div className="col-lg-3 left-col">
-                    <center>
-                        <div style={{width:'300px', margin:'0 0 10% 0'}}>
+                    <div>
+                        <div className='name'>
                             <h1 style={{textAlign:'left'}}>Murtaza S. Kankroliwala</h1>
                         </div>
-                    </center>
+                    </div>
                     <center>
                         <img src={img} className="profile_img" alt="profile"></img>
                     </center>
